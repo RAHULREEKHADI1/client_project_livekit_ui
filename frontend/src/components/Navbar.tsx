@@ -38,9 +38,7 @@ const Navbar: React.FC<NavbarProps> = ({
 
     return (
         <div className="bg-[#FCFCF7] rounded-2xl sm:rounded-3xl lg:rounded-4xl border shadow-md">
-            {/* Main Navbar */}
             <div className="flex items-center justify-between gap-3 sm:gap-4 px-4 sm:px-6 lg:px-8 py-3 sm:py-3.5">
-                {/* Logo */}
                 {imageLogo && (
                     <img
                         src={imageLogo.src}
@@ -50,7 +48,6 @@ const Navbar: React.FC<NavbarProps> = ({
                     />
                 )}
 
-                {/* Hamburger Menu - Mobile Only */}
                 <button
                     onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                     className="md:hidden flex flex-col gap-1.5 p-1"
@@ -61,7 +58,6 @@ const Navbar: React.FC<NavbarProps> = ({
                     <span className="w-7 h-0.5 bg-black rounded transition-all"></span>
                 </button>
 
-                {/* Desktop Nav Links */}
                 <div className="hidden md:flex items-center gap-3 lg:gap-4">
                     {navLinkItems?.map((item, index) => (
                         <a
@@ -75,7 +71,6 @@ const Navbar: React.FC<NavbarProps> = ({
                     ))}
                 </div>
 
-                {/* Mode Toggle */}
                 {modeToggle && (
                     <div
                         role="switch"
@@ -116,7 +111,6 @@ const Navbar: React.FC<NavbarProps> = ({
                     </div>
                 )}
 
-                {/* Desktop Action Buttons */}
                 <div className="hidden md:flex items-center gap-1.5 sm:gap-2">
                     {actionButtons?.map((btn, index) => (
                         <button
@@ -135,15 +129,13 @@ const Navbar: React.FC<NavbarProps> = ({
                 </div>
             </div>
 
-            {/* Mobile Menu Dropdown */}
             {mobileMenuOpen && (
                 <div className="md:hidden border-t border-gray-200 px-4 py-3 space-y-3">
-                    {/* Mobile Nav Links */}
                     {navLinkItems?.map((item, index) => (
                         <a
                             key={index}
                             href={item.href}
-                            onClick={(e) => {
+                            onClick={() => {
                                 item.onClick?.()
                                 setMobileMenuOpen(false)
                             }}
@@ -153,7 +145,6 @@ const Navbar: React.FC<NavbarProps> = ({
                         </a>
                     ))}
 
-                    {/* Mobile Action Buttons */}
                     <div className="flex flex-col gap-2 pt-2">
                         {actionButtons?.map((btn, index) => (
                             <button
