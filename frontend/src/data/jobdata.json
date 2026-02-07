@@ -1,0 +1,64 @@
+{
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Founding Engineer",
+      "compensation": "£240k+ Total Compensation",
+      "features": [
+        {
+          "icon": "money",
+          "text": "£240k+ Total Compensation"
+        },
+        {
+          "icon": "check",
+          "text": "You choose your cash/equity split"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Founding Product Designer",
+      "compensation": "£180k+ Total Compensation",
+      "features": [
+        {
+          "icon": "money",
+          "text": "£180k+ Total Compensation"
+        },
+        {
+          "icon": "check",
+          "text": "You choose your cash/equity split"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Founding GTM Lead (San Francisco)",
+      "compensation": "$180-$300k+ TC",
+      "features": [
+        {
+          "icon": "money",
+          "text": "$180-$300k+ TC"
+        },
+        {
+          "icon": "check",
+          "text": "You choose your cash/equity split"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Founding GTM Operator",
+      "compensation": "£150k+ Total Compensation",
+      "features": [
+        {
+          "icon": "money",
+          "text": "£150k+ Total Compensation"
+        },
+        {
+          "icon": "check",
+          "text": "You choose your cash/equity split"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "src": "https://cdn.prod.website-files.com/685a7ae49cda5c7458ee0402/68cc0eb44d81294abb5c4892_685eb02c17e2c3fe56303740_BC.avif",
+    "alt": "Bain & Company"
+  },
+  {
+    "id": 2,
+    "src": "https://cdn.prod.website-files.com/685a7ae49cda5c7458ee0402/68cc0eb44d81294abb5c488f_685eb05afd64f93d5dd45182_MC.avif",
+    "alt": "McKinsey & Company"
+  },
+  {
+    "id": 3,
+    "src": "https://cdn.prod.website-files.com/685a7ae49cda5c7458ee0402/68cc0eb44d81294abb5c48a1_685eb0843d6dc3512fd4a763_BCG.avif",
+    "alt": "BCG"
+  },
+  {
+    "id": 4,
+    "src": "https://cdn.prod.website-files.com/685a7ae49cda5c7458ee0402/68cc0eb44d81294abb5c488c_685eb0db0b8858468af8faae_pa.avif",
+    "alt": "Palantir"
+  },
+  {
+    "id": 5,
+    "src": "https://cdn.prod.website-files.com/685a7ae49cda5c7458ee0402/68cc0eb44d81294abb5c4898_685eb102ca2aa625ccd41e29_mo.avif",
+    "alt": "Monzo"
+  },
+  {
+    "id": 6,
+    "src": "https://cdn.prod.website-files.com/685a7ae49cda5c7458ee0402/68cc0eb44d81294abb5c4889_685eb147fddd2edf987809c2_he.avif",
+    "alt": "Helsing"
+  },
+  {
+    "id": 7,
+    "src": "https://cdn.prod.website-files.com/685a7ae49cda5c7458ee0402/68cc0eb44d81294abb5c4895_685eb19b8b923b5906badde8_Meta.avif",
+    "alt": "Meta"
+  },
+  {
+    "id": 8,
+    "src": "https://cdn.prod.website-files.com/685a7ae49cda5c7458ee0402/68cc0eb44d81294abb5c48aa_685eb1d6e58f9b0671b91a48_Syn.avif",
+    "alt": "Synthesia"
+  },
+  {
+    "id": 9,
+    "src": "https://cdn.prod.website-files.com/685a7ae49cda5c7458ee0402/68cc0eb44d81294abb5c489b_685eb1714cdbb29abbe9cb77_Apple.avif",
+    "alt": "Apple"
+  },
+  {
+    "id": 10,
+    "src": "https://cdn.prod.website-files.com/685a7ae49cda5c7458ee0402/68cc0eb44d81294abb5c4886_685eb24c8ffe13d916c9f05d_Rev.avif",
+    "alt": "Revolut"
+  },
+  {
+    "id": 11,
+    "src": "https://cdn.prod.website-files.com/685a7ae49cda5c7458ee0402/68cc0eb44d81294abb5c489e_685eb283e2bf87d0f587cb06_deel.avif",
+    "alt": "Deel"
+  }
+]

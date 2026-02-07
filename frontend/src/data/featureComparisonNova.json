@@ -1,0 +1,107 @@
+{
+  "columns": [
+    { "key": "jack", "title": "Jack" },
+    { "key": "agency", "title": "Agency Recruiters" },
+    { "key": "linkedin", "title": "Linkedin" }
+  ],
+  "rows": [
+    { "key": "what", "label": "What you get" },
+    { "key": "quality", "label": "Job quality" },
+    { "key": "speed", "label": "Speed" },
+    { "key": "support", "label": "Support" },
+    { "key": "followup", "label": "Follow-up" },
+    { "key": "cost", "label": "Cost" }
+  ],
+  "cells": [
+    {
+      "rowKey": "what",
+      "columnKey": "jack",
+      "content": "Really gets you. Sends good jobs fast. Feels like magic."
+    },
+    {
+      "rowKey": "what",
+      "columnKey": "agency",
+      "content": "🤮 A pitch"
+    },
+    {
+      "rowKey": "what",
+      "columnKey": "linkedin",
+      "content": "❌ Doomscrolling"
+    },
+    {
+      "rowKey": "quality",
+      "columnKey": "jack",
+      "content": "Thoughtfully picked from thousands"
+    },
+    {
+      "rowKey": "quality",
+      "columnKey": "agency",
+      "content": "😠 Limited to their paying clients"
+    },
+    {
+      "rowKey": "quality",
+      "columnKey": "linkedin",
+      "content": "❌ Too many — you do the digging"
+    },
+    {
+      "rowKey": "speed",
+      "columnKey": "jack",
+      "content": "Instant job matches after one call"
+    },
+    {
+      "rowKey": "speed",
+      "columnKey": "agency",
+      "content": "😤 Slow or pushy"
+    },
+    {
+      "rowKey": "speed",
+      "columnKey": "linkedin",
+      "content": "❌ Hours browsing, applying, hoping"
+    },
+    {
+      "rowKey": "support",
+      "columnKey": "jack",
+      "content": "24/7 application help & interview prep"
+    },
+    {
+      "rowKey": "support",
+      "columnKey": "agency",
+      "content": "😕 Unlikely"
+    },
+    {
+      "rowKey": "support",
+      "columnKey": "linkedin",
+      "content": "❌ Nothing"
+    },
+    {
+      "rowKey": "followup",
+      "columnKey": "jack",
+      "content": "Jack remembers everything and picks up where you left off"
+    },
+    {
+      "rowKey": "followup",
+      "columnKey": "agency",
+      "content": "😐 Might call back, might not"
+    },
+    {
+      "rowKey": "followup",
+      "columnKey": "linkedin",
+      "content": "❌ Start over every time"
+    },
+    {
+      "rowKey": "cost",
+      "columnKey": "jack",
+      "content": "Free"
+    },
+    {
+      "rowKey": "cost",
+      "columnKey": "agency",
+      "content": "😬 Expensive to the employer"
+    },
+    {
+      "rowKey": "cost",
+      "columnKey": "linkedin",
+      "content": "❌ Time suck"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "columns": [
+    { "key": "jill", "title": "Jill" },
+    { "key": "agency", "title": "Agency Recruiters" },
+    { "key": "linkedin", "title": "Linkedin" }
+  ],
+  "rows": [
+    { "key": "what", "label": "What you get" },
+    { "key": "candidates", "label": "Candidates" },
+    { "key": "speed", "label": "Speed" },
+    { "key": "support", "label": "Support" },
+    { "key": "cost", "label": "Cost" }
+  ],
+  "cells": [
+    {
+      "rowKey": "what",
+      "columnKey": "jill",
+      "content": "Gets your brief. Sends great people."
+    },
+    {
+      "rowKey": "what",
+      "columnKey": "agency",
+      "content": "😭 A call, a pitch, a hope."
+    },
+    {
+      "rowKey": "what",
+      "columnKey": "linkedin",
+      "content": "ATS chaos. You’re on your own."
+    },
+
+    {
+      "rowKey": "candidates",
+      "columnKey": "jill",
+      "content": "Actually good – hand-picked from thousands of calls with Jack."
+    },
+    {
+      "rowKey": "candidates",
+      "columnKey": "agency",
+      "content": "😠 Whoever they’re placing right now"
+    },
+    {
+      "rowKey": "candidates",
+      "columnKey": "linkedin",
+      "content": "Whoever clicked apply"
+    },
+
+    {
+      "rowKey": "speed",
+      "columnKey": "jill",
+      "content": "Immediate intros from Jack’s network."
+    },
+    {
+      "rowKey": "speed",
+      "columnKey": "agency",
+      "content": "😞 1–3 weeks (maybe)"
+    },
+    {
+      "rowKey": "speed",
+      "columnKey": "linkedin",
+      "content": "Initial flood – then tumbleweed"
+    },
+
+    {
+      "rowKey": "support",
+      "columnKey": "jill",
+      "content": "Honest hiring advice. No sales pitch."
+    },
+    {
+      "rowKey": "support",
+      "columnKey": "agency",
+      "content": "😤 Pushy, rarely helpful"
+    },
+    {
+      "rowKey": "support",
+      "columnKey": "linkedin",
+      "content": "None"
+    },
+
+    {
+      "rowKey": "cost",
+      "columnKey": "jill",
+      "content": "10% if you hire. That’s it."
+    },
+    {
+      "rowKey": "cost",
+      "columnKey": "agency",
+      "content": "💸🔥 2–3x more expensive"
+    },
+    {
+      "rowKey": "cost",
+      "columnKey": "linkedin",
+      "content": "Time suck"
+    }
+  ]
+}

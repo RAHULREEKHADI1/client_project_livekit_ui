@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+}
+
+body {
+  font-family: Manrope;
+}
+
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;  /* Prevents horizontal scroll */
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
