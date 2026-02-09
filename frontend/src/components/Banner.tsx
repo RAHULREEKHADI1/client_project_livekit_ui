@@ -20,9 +20,9 @@ interface BannerProps {
     novaRef?: React.RefObject<HTMLDivElement | null>;
 }
 
-const Banner = forwardRef<HTMLDivElement, BannerProps>(({ nexaRef, novaRef }, ref) => {
+const Banner = forwardRef<HTMLDivElement, BannerProps>(({ nexaRef, novaRef },ref) => {
     return (
-        <div className="w-full overflow-x-hidden">
+        <div ref={ref} className="w-full overflow-x-hidden">
             <div ref={novaRef} className="flex flex-col gap-6 sm:gap-8 items-center justify-center px-4 sm:px-6 lg:px-8">
                 <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-center font-bold text-black my-6">
                     <h3>Hi, I'm Nova</h3>
@@ -203,7 +203,6 @@ const Banner = forwardRef<HTMLDivElement, BannerProps>(({ nexaRef, novaRef }, re
                 </div>
             </div>
 
-            {/* NEXA SECTION - This is where we scroll to when "Hiring" is selected */}
             <div ref={nexaRef} className="w-full bg-linear-to-br from-[#2A243F] via-[#876ACC] to-[#2A243F]">
                 <div className="flex flex-col gap-6 sm:gap-8 items-center justify-center px-4 sm:px-6 lg:px-8">
                     <div className="text-center mt-8 sm:mt-12 md:mt-16">

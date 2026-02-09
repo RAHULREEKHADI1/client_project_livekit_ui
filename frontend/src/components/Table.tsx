@@ -53,7 +53,7 @@ const FeatureComparisonTable: React.FC<FeatureComparisonTableProps> = ({
           </thead>
 
           <tbody>
-            {rows.map((row, index) => (
+            {rows.map((row) => (
               <tr key={row.key}>
                 <th className="border border-gray-800 p-6 text-left font-semibold bg-white">
                   {row.label}

@@ -65,6 +65,9 @@ const JobCard: React.FC<JobCardProps> = ({
       <h3 className="text-2xl sm:text-3xl font-bold text-center mb-6 sm:mb-8">
         {title}
       </h3>
+      <p className="text-center text-sm sm:text-base font-medium text-gray-600 mb-6 sm:mb-8">
+        {compensation}
+      </p>
 
       <div className="space-y-3 sm:space-y-4 mb-8 sm:mb-10">
         {features.map((feature, index) => (
