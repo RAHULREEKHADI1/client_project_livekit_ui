@@ -44,7 +44,7 @@ const Navbar: React.FC<NavbarProps> = ({
                         src={imageLogo.src}
                         alt={imageLogo.alt}
                         onClick={imageLogo.onClick}
-                        className={twMerge(`cursor-pointer h-5 sm:h-6 ${imageLogo.className}`)}
+                        className={twMerge(`cursor-pointer ${imageLogo.className}`)}
                     />
                 )}
 
@@ -88,7 +88,7 @@ const Navbar: React.FC<NavbarProps> = ({
                                 width: 44,
                                 height: 22,
                                 borderRadius: 999,
-                                background: "#FF7A59",
+                                background: "#E91E8C",
                             }}
                         >
                             <div
@@ -117,9 +117,9 @@ const Navbar: React.FC<NavbarProps> = ({
                             key={index}
                             onClick={btn.onClick}
                             className={twMerge(
-                                "font-medium text-xs sm:text-sm px-3 sm:px-4 py-2 sm:py-2.5 rounded-lg text-black transition-all hover:opacity-90 active:scale-95 whitespace-nowrap",
+                                "font-semibold text-xs sm:text-sm px-3 sm:px-4 py-2 sm:py-2.5 rounded-lg text-black transition-all hover:opacity-90 active:scale-95 whitespace-nowrap",
                                 btn.variant === "primary"
-                                    ? "bg-[#F7694A]"
+                                    ? "bg-[#E91E8C]"
                                     : "bg-[#DFDFDF]"
                             )}
                         >

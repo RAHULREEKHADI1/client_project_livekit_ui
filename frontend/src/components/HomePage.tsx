@@ -6,6 +6,7 @@ import Banner from "../components/Banner"
 import VideoPlayer from "../components/VideoPlayer"
 import JobCard from "../components/JobCard"
 import jobsData from '../data/jobdata.json'
+import { useNavigate } from "react-router-dom"
 
 interface JobFeature {
   icon: "money" | "check"
@@ -23,6 +24,8 @@ function HomePage() {
   const nexaRef = useRef<HTMLDivElement>(null)
   const novaRef = useRef<HTMLDivElement>(null)
   const navRef = useRef<HTMLDivElement>(null)
+
+  const navigateTo = useNavigate();
 
 
   const handleApply = (jobTitle: string) => {
@@ -90,7 +93,7 @@ function HomePage() {
   }
 
   return (
-    <div className="min-h-screen bg-linear-to-br from-[#EDE4FD] to-[#A78BFA]">
+    <div className="min-h-screen bg-[#FCFCF7]">
       <header
         ref={navRef}
         className="fixed top-0 left-0 right-0 z-50 bg-transparent px-4 sm:px-6 pt-4 sm:pt-6 pb-2 sm:pb-3"
@@ -98,14 +101,15 @@ function HomePage() {
 
         <Navbar
           imageLogo={{
-            src: "/nexa_logo.png",
+            src: "/HireTal_Logo.avif",
             alt: "Logo",
             onClick: () => console.log("logo clicked"),
-            className: "w-32"
+            className: "h-10 w-22.5"
           }}
           navLinkItems={[
+            { label: "Referral", href: "/referral",onClick:()=>navigateTo("/referral")},
             { label: "Pricing", href: "/pricing" },
-            { label: "Sign-in", href: "/sign-in" },
+            { label: "Sign-in", href: "/sign-in",onClick:()=>navigateTo("/sign-in")},
           ]}
           modeToggle={{
             leftLabel: "Find Jobs",

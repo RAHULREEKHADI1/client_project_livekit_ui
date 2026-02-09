@@ -20,9 +20,9 @@ interface BannerProps {
     novaRef?: React.RefObject<HTMLDivElement | null>;
 }
 
-const Banner = forwardRef<HTMLDivElement, BannerProps>(({ nexaRef, novaRef }) => {
+const Banner = forwardRef<HTMLDivElement, BannerProps>(({ nexaRef, novaRef },ref) => {
     return (
-        <div className="w-full overflow-x-hidden">
+        <div ref={ref} className="w-full overflow-x-hidden">
             <div ref={novaRef} className="flex flex-col gap-6 sm:gap-8 items-center justify-center px-4 sm:px-6 lg:px-8">
                 <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-center font-bold text-black my-6">
                     <h3>Hi, I'm Nova</h3>
